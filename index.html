@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korepetycje – Strona testowa</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <h1>Korepetycje Adrian</h1>
+            <ul>
+                <li><a href="#home">Strona główna</a></li>
+                <li><a href="#about">O mnie</a></li>
+                <li><a href="#materials">Materiały</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero container">
+        <h2>Profesjonalne korepetycje</h2>
+        <p>Materiały, filmy i proste tłumaczenia – wszystko w jednym miejscu.</p>
+        <a href="#materials" class="btn">Zobacz materiały próbne</a>
+    </section>
+
+    <section id="about" class="container">
+        <h2>O mnie</h2>
+        <p>Nazywam się Adrian i prowadzę korepetycje dla uczniów, którym zależy na prostym i zrozumiałym tłumaczeniu trudnych tematów. 
+        Wiem, jak przekazywać wiedzę i lubię to robić.</p>
+    </section>
+
+    <section id="materials" class="container">
+        <h2>Materiały próbne</h2>
+
+        <div class="card">
+            <h3>Film instruktażowy</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        </div>
+
+        <div class="card">
+            <h3>Notatka PDF</h3>
+            <a href="sample.pdf" download class="btn">Pobierz PDF</a>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Kontakt</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Twoje imię" required />
+            <input type="email" placeholder="Email" required />
+            <textarea placeholder="Wiadomość" required></textarea>
+            <button type="submit" class="btn">Wyślij</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Korepetycje Adrian – Strona testowa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
